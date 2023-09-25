@@ -6,8 +6,15 @@ import 'package:dicoding_flutter_pemula_submission/presentation/view/home/widget
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class HomeView extends GetView<HomeController> {
+class HomeView extends StatefulWidget {
   const HomeView({super.key});
+
+  @override
+  State<HomeView> createState() => _HomeViewState();
+}
+
+class _HomeViewState extends State<HomeView> {
+  final controller = Get.find<HomeController>();
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +49,7 @@ class HomeView extends GetView<HomeController> {
             child: SizedBox(
               height: screenWidth * 0.5,
               child: Obx(
-                    () => controller.nowPlayingMovie.value.maybeWhen(
+                () => controller.nowPlayingMovie.value.maybeWhen(
                   orElse: () => const LoadingWidget(),
                   success: (data) => PageView.builder(
                     scrollDirection: Axis.horizontal,
@@ -85,7 +92,7 @@ class HomeView extends GetView<HomeController> {
             child: SizedBox(
               height: screenWidth * 0.5,
               child: Obx(
-                    () => controller.trendingMovie.value.maybeWhen(
+                () => controller.trendingMovie.value.maybeWhen(
                   orElse: () => const LoadingWidget(),
                   success: (data) => PageView.builder(
                     scrollDirection: Axis.horizontal,

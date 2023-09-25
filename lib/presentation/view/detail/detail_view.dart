@@ -6,8 +6,15 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 
-class DetailView extends GetView<DetailController> {
+class DetailView extends StatefulWidget {
   const DetailView({super.key});
+
+  @override
+  State<DetailView> createState() => _DetailViewState();
+}
+
+class _DetailViewState extends State<DetailView> {
+  final controller = Get.find<DetailController>();
 
   @override
   Widget build(BuildContext context) {

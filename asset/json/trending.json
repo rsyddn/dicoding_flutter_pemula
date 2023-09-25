@@ -1,0 +1,410 @@
+[
+  {
+    "id": 545609,
+    "video": false,
+    "vote_count": 265,
+    "vote_average": 7.1,
+    "title": "Extraction",
+    "release_date": "2020-04-24",
+    "original_language": "en",
+    "original_title": "Extraction",
+    "genre_ids": [
+      28,
+      18,
+      53
+    ],
+    "backdrop_path": "/1R6cvRtZgsYCkh8UFuWFN33xBP4.jpg",
+    "adult": false,
+    "overview": "Tyler Rake, a fearless mercenary who offers his services on the black market, embarks on a dangerous mission when he is hired to rescue the kidnapped son of a Mumbai crime lord…",
+    "poster_path": "/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg",
+    "popularity": 124.207
+  },
+  {
+    "id": 181812,
+    "video": false,
+    "vote_count": 4169,
+    "vote_average": 6.5,
+    "title": "Star Wars: The Rise of Skywalker",
+    "release_date": "2019-12-18",
+    "original_language": "en",
+    "original_title": "Star Wars: The Rise of Skywalker",
+    "genre_ids": [
+      28,
+      12,
+      878
+    ],
+    "backdrop_path": "/jOzrELAzFxtMx2I4uDGHOotdfsS.jpg",
+    "adult": false,
+    "overview": "The surviving Resistance faces the First Order once again as the journey of Rey, Finn and Poe Dameron continues. With the power and knowledge of generations behind them, the final battle begins.",
+    "poster_path": "/db32LaOibwEliAmSL2jjDF6oDdj.jpg",
+    "popularity": 153.039
+  },
+  {
+    "id": 38700,
+    "video": false,
+    "vote_count": 3439,
+    "vote_average": 7.2,
+    "title": "Bad Boys for Life",
+    "release_date": "2020-01-15",
+    "original_language": "en",
+    "original_title": "Bad Boys for Life",
+    "genre_ids": [
+      28,
+      80,
+      53
+    ],
+    "backdrop_path": "/upUy2QhMZEmtypPW3PdieKLAHxh.jpg",
+    "adult": false,
+    "overview": "Marcus and Mike are forced to confront new threats, career changes, and midlife crises as they join the newly created elite team AMMO of the Miami police department to take down the ruthless Armando Armas, the vicious leader of a Miami drug cartel.",
+    "poster_path": "/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg",
+    "popularity": 168.776
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/ww7eC3BqSbFsyE5H5qMde8WkxJ2.jpg",
+    "genre_ids": [
+      27,
+      878,
+      28,
+      53
+    ],
+    "id": 443791,
+    "original_language": "en",
+    "original_title": "Underwater",
+    "overview": "After an earthquake destroys their underwater station, six researchers must navigate two miles along the dangerous, unknown depths of the ocean floor to make it to safety in a race against time.",
+    "poster_path": "/gzlbb3yeVISpQ3REd3Ga1scWGTU.jpg",
+    "release_date": "2020-01-08",
+    "title": "Underwater",
+    "video": false,
+    "vote_average": 6.4,
+    "vote_count": 893,
+    "popularity": 172.29
+  },
+  {
+    "id": 454626,
+    "video": false,
+    "vote_count": 3072,
+    "vote_average": 7.6,
+    "title": "Sonic the Hedgehog",
+    "release_date": "2020-02-12",
+    "original_language": "en",
+    "original_title": "Sonic the Hedgehog",
+    "genre_ids": [
+      28,
+      35,
+      878,
+      10751
+    ],
+    "backdrop_path": "/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
+    "adult": false,
+    "overview": "Based on the global blockbuster videogame franchise from Sega, Sonic the Hedgehog tells the story of the world’s speediest hedgehog as he embraces his new home on Earth. In this live-action adventure comedy, Sonic and his new best friend team up to defend the planet from the evil genius Dr. Robotnik and his plans for world domination.",
+    "poster_path": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
+    "popularity": 208.067
+  },
+  {
+    "id": 512200,
+    "video": false,
+    "vote_count": 3389,
+    "vote_average": 6.9,
+    "title": "Jumanji: The Next Level",
+    "release_date": "2019-12-04",
+    "original_language": "en",
+    "original_title": "Jumanji: The Next Level",
+    "genre_ids": [
+      12,
+      35,
+      14
+    ],
+    "backdrop_path": "/oLma4sWjqlXVr0E3jpaXQCytuG9.jpg",
+    "adult": false,
+    "overview": "As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world’s most dangerous game.",
+    "poster_path": "/bB42KDdfWkOvmzmYkmK58ZlCa9P.jpg",
+    "popularity": 141.891
+  },
+  {
+    "id": 338762,
+    "video": false,
+    "vote_count": 1848,
+    "vote_average": 7.2,
+    "title": "Bloodshot",
+    "release_date": "2020-03-05",
+    "original_language": "en",
+    "original_title": "Bloodshot",
+    "genre_ids": [
+      28,
+      878
+    ],
+    "backdrop_path": "/ocUrMYbdjknu2TwzMHKT9PBBQRw.jpg",
+    "adult": false,
+    "overview": "After he and his wife are murdered, marine Ray Garrison is resurrected by a team of scientists. Enhanced with nanotechnology, he becomes a superhuman, biotech killing machine—'Bloodshot'. As Ray first trains with fellow super-soldiers, he cannot recall anything from his former life. But when his memories flood back and he remembers the man that killed both him and his wife, he breaks out of the facility to get revenge, only to discover that there's more to the conspiracy than he thought.",
+    "poster_path": "/8WUVHemHFH2ZIP6NWkwlHWsyrEL.jpg",
+    "popularity": 203.71
+  },
+  {
+    "id": 495764,
+    "video": false,
+    "vote_count": 3302,
+    "vote_average": 7.2,
+    "title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+    "release_date": "2020-02-05",
+    "original_language": "en",
+    "original_title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+    "genre_ids": [
+      28,
+      35,
+      80
+    ],
+    "backdrop_path": "/uozb2VeD87YmhoUP1RrGWfzuCrr.jpg",
+    "adult": false,
+    "overview": "Harley Quinn joins forces with a singer, an assassin and a police detective to help a young girl who had a hit placed on her after she stole a rare diamond from a crime lord.",
+    "poster_path": "/h4VB6m0RwcicVEZvzftYZyKXs6K.jpg",
+    "popularity": 157.818
+  },
+  {
+    "id": 664767,
+    "video": false,
+    "vote_count": 214,
+    "vote_average": 8.5,
+    "title": "Mortal Kombat Legends: Scorpion’s Revenge",
+    "release_date": "2020-04-12",
+    "original_language": "en",
+    "original_title": "Mortal Kombat Legends: Scorpion's Revenge",
+    "genre_ids": [
+      28,
+      12,
+      16,
+      14
+    ],
+    "backdrop_path": "/vw3zNfzvnVNF7nIjpiEgcdznfeC.jpg",
+    "adult": false,
+    "overview": "After the vicious slaughter of his family by stone-cold mercenary Sub-Zero, Hanzo Hasashi is exiled to the torturous Netherrealm. There, in exchange for his servitude to the sinister Quan Chi, he’s given a chance to avenge his family – and is resurrected as Scorpion, a lost soul bent on revenge. Back on Earthrealm, Lord Raiden gathers a team of elite warriors – Shaolin monk Liu Kang, Special Forces officer Sonya Blade and action star Johnny Cage – an unlikely band of heroes with one chance to save humanity. To do this, they must defeat Shang Tsung’s horde of Outworld gladiators and reign over the Mortal Kombat tournament.",
+    "poster_path": "/4VlXER3FImHeFuUjBShFamhIp9M.jpg",
+    "popularity": 90.626
+  },
+  {
+    "id": 508439,
+    "video": false,
+    "vote_count": 1422,
+    "vote_average": 8.0,
+    "title": "Onward",
+    "release_date": "2020-02-29",
+    "original_language": "en",
+    "original_title": "Onward",
+    "genre_ids": [
+      12,
+      16,
+      35,
+      14,
+      10751
+    ],
+    "backdrop_path": "/xFxk4vnirOtUxpOEWgA1MCRfy6J.jpg",
+    "adult": false,
+    "overview": "In a suburban fantasy world, two teenage elf brothers embark on an extraordinary quest to discover if there is still a little magic left out there.",
+    "poster_path": "/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg",
+    "popularity": 149.438
+  },
+  {
+    "id": 539537,
+    "video": false,
+    "vote_count": 421,
+    "vote_average": 5.8,
+    "title": "Fantasy Island",
+    "release_date": "2020-02-12",
+    "original_language": "en",
+    "original_title": "Fantasy Island",
+    "genre_ids": [
+      14,
+      27,
+      878
+    ],
+    "backdrop_path": "/x80ZIVGUJ6plcUBcgVZ6DPKT7vc.jpg",
+    "adult": false,
+    "overview": "A group of contest winners arrive at an island hotel to live out their dreams, only to find themselves trapped in nightmare scenarios.",
+    "poster_path": "/rbrvkNWDyF1NKzvAlIHepFBSBJq.jpg",
+    "popularity": 84.185
+  },
+  {
+    "id": 522627,
+    "video": false,
+    "vote_count": 988,
+    "vote_average": 7.8,
+    "title": "The Gentlemen",
+    "release_date": "2020-01-01",
+    "original_language": "en",
+    "original_title": "The Gentlemen",
+    "genre_ids": [
+      28,
+      35,
+      80
+    ],
+    "backdrop_path": "/tintsaQ0WLzZsTMkTiqtMB3rfc8.jpg",
+    "adult": false,
+    "overview": "American expat Mickey Pearson has built a highly profitable marijuana empire in London. When word gets out that he’s looking to cash out of the business forever it triggers plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+    "poster_path": "/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
+    "popularity": 81.297
+  },
+  {
+    "id": 446893,
+    "video": false,
+    "vote_count": 427,
+    "vote_average": 7.7,
+    "title": "Trolls World Tour",
+    "release_date": "2020-03-12",
+    "original_language": "en",
+    "original_title": "Trolls World Tour",
+    "genre_ids": [
+      12,
+      16,
+      35,
+      14,
+      10402,
+      10751
+    ],
+    "backdrop_path": "/qsxhnirlp7y4Ae9bd11oYJSX59j.jpg",
+    "adult": false,
+    "overview": "Queen Poppy and Branch make a surprising discovery — there are other Troll worlds beyond their own, and their distinct differences create big clashes between these various tribes. When a mysterious threat puts all of the Trolls across the land in danger, Poppy, Branch, and their band of friends must embark on an epic quest to create harmony among the feuding Trolls to unite them against certain doom.",
+    "poster_path": "/7W0G3YECgDAfnuiHG91r8WqgIOe.jpg",
+    "popularity": 103.023
+  },
+  {
+    "id": 560044,
+    "video": false,
+    "vote_count": 53,
+    "vote_average": 7.5,
+    "title": "The Willoughbys",
+    "release_date": "2020-04-22",
+    "original_language": "en",
+    "original_title": "The Willoughbys",
+    "genre_ids": [
+      16,
+      35,
+      10751
+    ],
+    "backdrop_path": "/9foQsz7j1o2pGCKFGkzlxJteE5W.jpg",
+    "adult": false,
+    "overview": "When the four Willoughby children are abandoned by their selfish parents, they must learn how to adapt their Old-Fashioned values to the contemporary world in order to create something new: The Modern Family.",
+    "poster_path": "/dKgV8T3inB5EnVDg0Jeh2L6ttQ9.jpg",
+    "popularity": 136.85
+  },
+  {
+    "id": 448119,
+    "video": false,
+    "vote_count": 1300,
+    "vote_average": 6.8,
+    "title": "Dolittle",
+    "release_date": "2020-01-01",
+    "original_language": "en",
+    "original_title": "Dolittle",
+    "genre_ids": [
+      12,
+      35,
+      14,
+      10751
+    ],
+    "backdrop_path": "/xcUf6yIheo78btFqihlRLftdR3M.jpg",
+    "adult": false,
+    "overview": "After losing his wife seven years earlier, the eccentric Dr. John Dolittle, famed doctor and veterinarian of Queen Victoria’s England, hermits himself away behind the high walls of Dolittle Manor with only his menagerie of exotic animals for company. But when the young queen falls gravely ill, a reluctant Dolittle is forced to set sail on an epic adventure to a mythical island in search of a cure, regaining his wit and courage as he crosses old adversaries and discovers wondrous creatures.",
+    "poster_path": "/xnjvwfDulnOCy8qtYX0iqydmMhk.jpg",
+    "popularity": 71.766
+  },
+  {
+    "id": 530915,
+    "video": false,
+    "vote_count": 4427,
+    "vote_average": 8.0,
+    "title": "1917",
+    "release_date": "2019-12-25",
+    "original_language": "en",
+    "original_title": "1917",
+    "genre_ids": [
+      28,
+      18,
+      53,
+      10752
+    ],
+    "backdrop_path": "/2WgieNR1tGHlpJUsolbVzbUbE1O.jpg",
+    "adult": false,
+    "overview": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
+    "poster_path": "/AuGiPiGMYMkSosOJ3BQjDEAiwtO.jpg",
+    "popularity": 84.423
+  },
+  {
+    "id": 466622,
+    "video": false,
+    "vote_count": 96,
+    "vote_average": 5.7,
+    "title": "The Rhythm Section",
+    "release_date": "2020-01-31",
+    "original_language": "en",
+    "original_title": "The Rhythm Section",
+    "genre_ids": [
+      28,
+      53
+    ],
+    "backdrop_path": "/a7685JYpZ6rmgkbFD3UVV5vNuhx.jpg",
+    "adult": false,
+    "overview": "After the death of her family in an airplane crash on a flight that she was meant to be on, Stephanie Patrick discovers the crash was not an accident. She then seeks to uncover the truth by adapting the identity of an assassin to track down those responsible.",
+    "poster_path": "/jjLcdF5ZLWHho96jTbUrJCpzztD.jpg",
+    "popularity": 61.227
+  },
+  {
+    "id": 299534,
+    "video": false,
+    "vote_count": 12677,
+    "vote_average": 8.3,
+    "title": "Avengers: Endgame",
+    "release_date": "2019-04-24",
+    "original_language": "en",
+    "original_title": "Avengers: Endgame",
+    "genre_ids": [
+      28,
+      12,
+      878
+    ],
+    "backdrop_path": "/orjiB3oUIsyz60hoEqkiGpy5CeO.jpg",
+    "adult": false,
+    "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+    "poster_path": "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+    "popularity": 52.161
+  },
+  {
+    "id": 475557,
+    "video": false,
+    "vote_count": 11791,
+    "vote_average": 8.2,
+    "title": "Joker",
+    "release_date": "2019-10-02",
+    "original_language": "en",
+    "original_title": "Joker",
+    "genre_ids": [
+      80,
+      18,
+      53
+    ],
+    "backdrop_path": "/f5F4cRhQdUbyVbB5lTNCwUzD6BP.jpg",
+    "adult": false,
+    "overview": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+    "poster_path": "/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+    "popularity": 117.05
+  },
+  {
+    "id": 330457,
+    "video": false,
+    "vote_count": 4032,
+    "vote_average": 7.2,
+    "title": "Frozen II",
+    "release_date": "2019-11-20",
+    "original_language": "en",
+    "original_title": "Frozen II",
+    "genre_ids": [
+      12,
+      16,
+      10751
+    ],
+    "backdrop_path": "/xJWPZIYOEFIjZpBL7SVBGnzRYXp.jpg",
+    "adult": false,
+    "overview": "Elsa, Anna, Kristoff and Olaf head far into the forest to learn the truth about an ancient mystery of their kingdom.",
+    "poster_path": "/h6Wi81XNXCjTAcdstiCLRykN3Pa.jpg",
+    "popularity": 66.474
+  }
+]

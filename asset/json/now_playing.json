@@ -1,0 +1,398 @@
+[
+  {
+    "popularity": 208.067,
+    "vote_count": 3072,
+    "video": false,
+    "poster_path": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
+    "id": 454626,
+    "adult": false,
+    "backdrop_path": "/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
+    "original_language": "en",
+    "original_title": "Sonic the Hedgehog",
+    "genre_ids": [
+      28,
+      35,
+      878,
+      10751
+    ],
+    "title": "Sonic the Hedgehog",
+    "vote_average": 7.6,
+    "overview": "Based on the global blockbuster videogame franchise from Sega, Sonic the Hedgehog tells the story of the world’s speediest hedgehog as he embraces his new home on Earth. In this live-action adventure comedy, Sonic and his new best friend team up to defend the planet from the evil genius Dr. Robotnik and his plans for world domination.",
+    "release_date": "2020-02-12"
+  },
+  {
+    "popularity": 172.29,
+    "id": 443791,
+    "video": false,
+    "vote_count": 893,
+    "vote_average": 6.4,
+    "title": "Underwater",
+    "release_date": "2020-01-08",
+    "original_language": "en",
+    "original_title": "Underwater",
+    "genre_ids": [
+      27,
+      878,
+      28,
+      53
+    ],
+    "backdrop_path": "/ww7eC3BqSbFsyE5H5qMde8WkxJ2.jpg",
+    "adult": false,
+    "overview": "After an earthquake destroys their underwater station, six researchers must navigate two miles along the dangerous, unknown depths of the ocean floor to make it to safety in a race against time.",
+    "poster_path": "/gzlbb3yeVISpQ3REd3Ga1scWGTU.jpg"
+  },
+  {
+    "popularity": 203.71,
+    "vote_count": 1848,
+    "video": false,
+    "poster_path": "/8WUVHemHFH2ZIP6NWkwlHWsyrEL.jpg",
+    "id": 338762,
+    "adult": false,
+    "backdrop_path": "/ocUrMYbdjknu2TwzMHKT9PBBQRw.jpg",
+    "original_language": "en",
+    "original_title": "Bloodshot",
+    "genre_ids": [
+      28,
+      878
+    ],
+    "title": "Bloodshot",
+    "vote_average": 7.2,
+    "overview": "After he and his wife are murdered, marine Ray Garrison is resurrected by a team of scientists. Enhanced with nanotechnology, he becomes a superhuman, biotech killing machine—'Bloodshot'. As Ray first trains with fellow super-soldiers, he cannot recall anything from his former life. But when his memories flood back and he remembers the man that killed both him and his wife, he breaks out of the facility to get revenge, only to discover that there's more to the conspiracy than he thought.",
+    "release_date": "2020-03-05"
+  },
+  {
+    "popularity": 149.438,
+    "vote_count": 1422,
+    "video": false,
+    "poster_path": "/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg",
+    "id": 508439,
+    "adult": false,
+    "backdrop_path": "/xFxk4vnirOtUxpOEWgA1MCRfy6J.jpg",
+    "original_language": "en",
+    "original_title": "Onward",
+    "genre_ids": [
+      12,
+      16,
+      35,
+      14,
+      10751
+    ],
+    "title": "Onward",
+    "vote_average": 8.0,
+    "overview": "In a suburban fantasy world, two teenage elf brothers embark on an extraordinary quest to discover if there is still a little magic left out there.",
+    "release_date": "2020-02-29"
+  },
+  {
+    "popularity": 103.023,
+    "vote_count": 427,
+    "video": false,
+    "poster_path": "/7W0G3YECgDAfnuiHG91r8WqgIOe.jpg",
+    "id": 446893,
+    "adult": false,
+    "backdrop_path": "/qsxhnirlp7y4Ae9bd11oYJSX59j.jpg",
+    "original_language": "en",
+    "original_title": "Trolls World Tour",
+    "genre_ids": [
+      12,
+      16,
+      35,
+      14,
+      10402,
+      10751
+    ],
+    "title": "Trolls World Tour",
+    "vote_average": 7.7,
+    "overview": "Queen Poppy and Branch make a surprising discovery — there are other Troll worlds beyond their own, and their distinct differences create big clashes between these various tribes. When a mysterious threat puts all of the Trolls across the land in danger, Poppy, Branch, and their band of friends must embark on an epic quest to create harmony among the feuding Trolls to unite them against certain doom.",
+    "release_date": "2020-03-12"
+  },
+  {
+    "popularity": 93.695,
+    "vote_count": 6638,
+    "video": false,
+    "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "id": 496243,
+    "adult": false,
+    "backdrop_path": "/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+    "original_language": "ko",
+    "original_title": "기생충",
+    "genre_ids": [
+      35,
+      18,
+      53
+    ],
+    "title": "Parasite",
+    "vote_average": 8.5,
+    "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+    "release_date": "2019-05-30"
+  },
+  {
+    "popularity": 84.185,
+    "vote_count": 421,
+    "video": false,
+    "poster_path": "/rbrvkNWDyF1NKzvAlIHepFBSBJq.jpg",
+    "id": 539537,
+    "adult": false,
+    "backdrop_path": "/x80ZIVGUJ6plcUBcgVZ6DPKT7vc.jpg",
+    "original_language": "en",
+    "original_title": "Fantasy Island",
+    "genre_ids": [
+      14,
+      27,
+      878
+    ],
+    "title": "Fantasy Island",
+    "vote_average": 5.8,
+    "overview": "A group of contest winners arrive at an island hotel to live out their dreams, only to find themselves trapped in nightmare scenarios.",
+    "release_date": "2020-02-12"
+  },
+  {
+    "popularity": 86.794,
+    "vote_count": 121,
+    "video": false,
+    "poster_path": "/h1JzHjFJXNJb3QTCwWmm2UbWEwn.jpg",
+    "id": 585244,
+    "adult": false,
+    "backdrop_path": "/rMkheZl9Zi2auEQp877cOWUTCKs.jpg",
+    "original_language": "en",
+    "original_title": "I Still Believe",
+    "genre_ids": [
+      18,
+      10402
+    ],
+    "title": "I Still Believe",
+    "vote_average": 7.1,
+    "overview": "The true-life story of Christian music star Jeremy Camp and his journey of love and loss that looks to prove there is always hope.",
+    "release_date": "2020-03-12"
+  },
+  {
+    "popularity": 69.976,
+    "vote_count": 1592,
+    "video": false,
+    "poster_path": "/5EufsDwXdY2CVttYOk2WtYhgKpa.jpg",
+    "id": 570670,
+    "adult": false,
+    "backdrop_path": "/uZMZyvarQuXLRqf3xdpdMqzdtjb.jpg",
+    "original_language": "en",
+    "original_title": "The Invisible Man",
+    "genre_ids": [
+      27,
+      878,
+      53
+    ],
+    "title": "The Invisible Man",
+    "vote_average": 7.2,
+    "overview": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
+    "release_date": "2020-02-26"
+  },
+  {
+    "popularity": 59.632,
+    "vote_count": 156,
+    "video": false,
+    "poster_path": "/zwgPO5bamUuajIAEc02q9XZ2qhq.jpg",
+    "id": 529485,
+    "adult": false,
+    "backdrop_path": "/5mubFanEHVFJff4jLQH0uIOThMz.jpg",
+    "original_language": "en",
+    "original_title": "The Way Back",
+    "genre_ids": [
+      18
+    ],
+    "title": "The Way Back",
+    "vote_average": 6.6,
+    "overview": "A former basketball all-star, who has lost his wife and family foundation in a struggle with addiction attempts to regain his soul and salvation by becoming the coach of a disparate ethnically mixed high school basketball team at his alma mater.",
+    "release_date": "2020-03-05"
+  },
+  {
+    "popularity": 59.012,
+    "vote_count": 2,
+    "video": false,
+    "poster_path": "/vG8qBkByy9naORB6zahcntIC2N.jpg",
+    "id": 679796,
+    "adult": false,
+    "backdrop_path": "/tVa0v0iX7ksdfHtYdTdJglZWy5N.jpg",
+    "original_language": "en",
+    "original_title": "Enemy Lines",
+    "genre_ids": [
+      28,
+      10752
+    ],
+    "title": "Enemy Lines",
+    "vote_average": 8.8,
+    "overview": "In the frozen, war torn landscape of occupied Poland during World War II, a crack team of allied commandos are sent on a deadly mission behind enemy lines to extract a rocket scientist from the hands of the Nazis.",
+    "release_date": "2020-04-24"
+  },
+  {
+    "popularity": 71.766,
+    "vote_count": 1300,
+    "video": false,
+    "poster_path": "/xnjvwfDulnOCy8qtYX0iqydmMhk.jpg",
+    "id": 448119,
+    "adult": false,
+    "backdrop_path": "/xcUf6yIheo78btFqihlRLftdR3M.jpg",
+    "original_language": "en",
+    "original_title": "Dolittle",
+    "genre_ids": [
+      12,
+      35,
+      14,
+      10751
+    ],
+    "title": "Dolittle",
+    "vote_average": 6.8,
+    "overview": "After losing his wife seven years earlier, the eccentric Dr. John Dolittle, famed doctor and veterinarian of Queen Victoria’s England, hermits himself away behind the high walls of Dolittle Manor with only his menagerie of exotic animals for company. But when the young queen falls gravely ill, a reluctant Dolittle is forced to set sail on an epic adventure to a mythical island in search of a cure, regaining his wit and courage as he crosses old adversaries and discovers wondrous creatures.",
+    "release_date": "2020-01-01"
+  },
+  {
+    "popularity": 51.639,
+    "vote_count": 1921,
+    "video": false,
+    "poster_path": "/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg",
+    "id": 331482,
+    "adult": false,
+    "backdrop_path": "/3uTxPIdVEXxHpsHOHdJC24QebBV.jpg",
+    "original_language": "en",
+    "original_title": "Little Women",
+    "genre_ids": [
+      18,
+      10749
+    ],
+    "title": "Little Women",
+    "vote_average": 7.9,
+    "overview": "Four sisters come of age in America in the aftermath of the Civil War.",
+    "release_date": "2019-12-25"
+  },
+  {
+    "popularity": 54.349,
+    "vote_count": 488,
+    "video": false,
+    "poster_path": "/2kNnf7BwRCEm4bcFkdiE0T4U25s.jpg",
+    "id": 457335,
+    "adult": false,
+    "backdrop_path": "/fssCO59bqU5f0zngeYKex0g1vyb.jpg",
+    "original_language": "en",
+    "original_title": "Guns Akimbo",
+    "genre_ids": [
+      28,
+      35
+    ],
+    "title": "Guns Akimbo",
+    "vote_average": 6.4,
+    "overview": "An ordinary guy suddenly finds himself forced to fight a gladiator-like battle for a dark website that streams the violence for viewers. Miles must fight heavily armed Nix and also save his kidnapped ex-girlfriend.",
+    "release_date": "2020-02-27"
+  },
+  {
+    "popularity": 59.832,
+    "vote_count": 161,
+    "video": false,
+    "poster_path": "/n2C6jRK9PtPIs99RQhKtqGlsnsO.jpg",
+    "id": 592834,
+    "adult": false,
+    "backdrop_path": "/yalJdTsb6EcDX5devj2ltWXuceO.jpg",
+    "original_language": "en",
+    "original_title": "My Spy",
+    "genre_ids": [
+      28,
+      35,
+      10751
+    ],
+    "title": "My Spy",
+    "vote_average": 7.1,
+    "overview": "A hardened CIA operative finds himself at the mercy of a precocious 9-year-old girl, having been sent undercover to surveil her family.",
+    "release_date": "2020-02-27"
+  },
+  {
+    "popularity": 64.223,
+    "vote_count": 34,
+    "video": false,
+    "poster_path": "/v1DbnzXChoymNghOGAjFUZ9KYP1.jpg",
+    "id": 430155,
+    "adult": false,
+    "backdrop_path": "/oVLGuq431nF3f0yDi07q1gL4ehK.jpg",
+    "original_language": "ru",
+    "original_title": "Кома",
+    "genre_ids": [
+      28,
+      14,
+      10749
+    ],
+    "title": "The Coma",
+    "vote_average": 5.2,
+    "overview": "After a colossal and mysterious accident a young talented architect comes back to his senses in a very odd world that only resembles the reality. This world is based on the memories of the ones who live in it - people who are currently finding themselves in a deep coma. Human memory is spotty, chaotic and unstable. The same is the COMA - odd collection of memories and recollections - cities, glaciers and rivers can all be found in one room. All the laws of physics can be broken. The architect must find out the exact laws and regulations of COMA as he fights for his life, meets the love of his life and keeps on looking for the exit to the real world which he will have to get acquainted with all over again after the experience of COMA.",
+    "release_date": "2019-11-19"
+  },
+  {
+    "popularity": 52.429,
+    "vote_count": 607,
+    "video": false,
+    "poster_path": "/33VdppGbeNxICrFUtW2WpGHvfYc.jpg",
+    "id": 481848,
+    "adult": false,
+    "backdrop_path": "/yFRpUmsreYO5Bc0HVBTsJsHIIox.jpg",
+    "original_language": "en",
+    "original_title": "The Call of the Wild",
+    "genre_ids": [
+      12,
+      18,
+      10751
+    ],
+    "title": "The Call of the Wild",
+    "vote_average": 7.0,
+    "overview": "Buck is a big-hearted dog whose blissful domestic life is turned upside down when he is suddenly uprooted from his California home and transplanted to the exotic wilds of the Yukon during the Gold Rush of the 1890s. As the newest rookie on a mail delivery dog sled team—and later its leader—Buck experiences the adventure of a lifetime, ultimately finding his true place in the world and becoming his own master.",
+    "release_date": "2020-02-19"
+  },
+  {
+    "popularity": 50.53,
+    "vote_count": 613,
+    "video": false,
+    "poster_path": "/4YJNp1cquIkX8JxFwkKNEFQ9tgr.jpg",
+    "id": 522212,
+    "adult": false,
+    "backdrop_path": "/4x2AKefQtj8TmzxyRJEEdAayj1V.jpg",
+    "original_language": "en",
+    "original_title": "Just Mercy",
+    "genre_ids": [
+      80,
+      18
+    ],
+    "title": "Just Mercy",
+    "vote_average": 8.1,
+    "overview": "The powerful true story of Harvard-educated lawyer Bryan Stevenson, who goes to Alabama to defend the disenfranchised and wrongly condemned — including Walter McMillian, a man sentenced to death despite evidence proving his innocence. Bryan fights tirelessly for Walter with the system stacked against them.",
+    "release_date": "2019-12-25"
+  },
+  {
+    "popularity": 45.648,
+    "vote_count": 161,
+    "video": false,
+    "poster_path": "/DpFMAjyE6EmIknSduykVc1pB1J.jpg",
+    "id": 639798,
+    "adult": false,
+    "backdrop_path": "/59b4PaPaI52LJJRNRtG3ALyUvJU.jpg",
+    "original_language": "es",
+    "original_title": "Malasaña 32",
+    "genre_ids": [
+      27
+    ],
+    "title": "32 Malasana Street",
+    "vote_average": 6.4,
+    "overview": "Inspired by real events, the story centers around a family in the 70s who settles in the Madrid neighborhood of Malasaña where their new house will become the worst of their nightmares.",
+    "release_date": "2020-01-17"
+  },
+  {
+    "popularity": 44.864,
+    "vote_count": 415,
+    "video": false,
+    "poster_path": "/p9vCAVhDK375XyobVcKqzqzsUHE.jpg",
+    "id": 501907,
+    "adult": false,
+    "backdrop_path": "/w0tJot6O0UtLVBRIPAdg3dQ2oNO.jpg",
+    "original_language": "en",
+    "original_title": "A Beautiful Day in the Neighborhood",
+    "genre_ids": [
+      18
+    ],
+    "title": "A Beautiful Day in the Neighborhood",
+    "vote_average": 7.2,
+    "overview": "An award-winning cynical journalist, Lloyd Vogel, begrudgingly accepts an assignment to write an Esquire profile piece on the beloved television icon Fred Rogers. After his encounter with Rogers, Vogel's perspective on life is transformed.",
+    "release_date": "2019-09-07"
+  }
+]

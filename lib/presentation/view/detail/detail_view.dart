@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:dicoding_flutter_pemula_submission/data/constants.dart';
 import 'package:dicoding_flutter_pemula_submission/presentation/entity/movie.dart';
 import 'package:dicoding_flutter_pemula_submission/presentation/routes/routes.dart';
@@ -13,11 +15,38 @@ class DetailView extends StatefulWidget {
   State<DetailView> createState() => _DetailViewState();
 }
 
-class _DetailViewState extends State<DetailView> {
+class _DetailViewState extends State<DetailView> with WidgetsBindingObserver {
   final controller = Get.find<DetailController>();
+  late Orientation isPortrait;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  double width = 0.0;
+  double height = 0.0;
+
+  @override
+  void didChangeMetrics() {
+    setState(() {
+      width = window.physicalSize.width;
+      height = window.physicalSize.height;
+      print("Width :${width}");
+      print("Height :${height}");
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
+    isPortrait = MediaQuery.of(context).orientation;
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
@@ -45,10 +74,7 @@ class _DetailViewState extends State<DetailView> {
   }
 
   Widget success(Movie data, BuildContext context) {
-    final screenWidth = MediaQuery.of(context).size.width;
-    final screenHeight = MediaQuery.of(context).size.height;
-    // Adjust font sizes based on screen width
-    final chipSpacing = screenWidth < 600 ? 2.0 : 5.0;
+    final chipSpacing = width < 600 ? 2.0 : 5.0;
 
     return Stack(
       children: [
@@ -58,19 +84,22 @@ class _DetailViewState extends State<DetailView> {
               child: Stack(
                 children: [
                   SizedBox(
-                    width: screenWidth,
-                    height: screenHeight,
+                    width: width,
+                    height: height,
                     child: Image.network(
                       "$IMAGE_URL${data.backdropPath}",
-                      fit: BoxFit.fitHeight,
+                      scale: 10,
+                      fit: isPortrait == Orientation.portrait
+                          ? BoxFit.fitHeight
+                          : BoxFit.fitWidth,
                       errorBuilder: (context, error, stackTrace) {
                         return const SizedBox.shrink();
                       },
                     ),
                   ),
                   Container(
-                    width: screenWidth,
-                    height: screenHeight,
+                    width: width,
+                    height: height,
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         colors: [
@@ -93,175 +122,181 @@ class _DetailViewState extends State<DetailView> {
             ),
           ],
         ),
-        SafeArea(
-          child: Stack(
-            children: [
-              Container(
-                height: screenHeight,
-                margin: EdgeInsets.only(
-                  top: screenHeight / 6,
-                  left: 8,
-                  right: 8,
-                  bottom: 8,
-                ),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(8),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withOpacity(0.3), // Shadow color
-                      spreadRadius: 2, // Spread radius
-                      blurRadius: 5, // Blur radius
-                      offset:
-                          const Offset(0, 3), // Offset (horizontal, vertical)
-                    ),
-                  ],
-                ),
-                padding: const EdgeInsets.only(
-                  top: 32,
-                  left: 16,
-                  right: 16,
-                  bottom: 16,
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Wrap(
-                      spacing: chipSpacing, // Adjust spacing
-                      children: data.genres.map((genre) {
-                        return Chip(
-                          label: Text(
-                            genre,
-                            style: const TextStyle(
-                              fontSize: 10,
-                              color: Colors.white,
+        Stack(
+          children: [
+            Container(
+              height: height,
+              margin: EdgeInsets.only(
+                top: isPortrait == Orientation.portrait
+                    ? height / 7
+                    : height / 6,
+                left: 16,
+                right: 16,
+                bottom: 16,
+              ),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(8),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.3), // Shadow color
+                    spreadRadius: 2, // Spread radius
+                    blurRadius: 5, // Blur radius
+                    offset:
+                        const Offset(0, 3), // Offset (horizontal, vertical)
+                  ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.only(
+                top: isPortrait == Orientation.portrait
+                    ? height / 10
+                    : height / 18,
+                right: 32,
+                left: 32,
+              ),
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      SizedBox(
+                        width: 100,
+                        height: 150,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(8.0),
+                          child: Image.network(
+                            "$IMAGE_URL${data.posterPath}",
+                            fit: BoxFit.fitHeight,
+                            errorBuilder: (context, error, stackTrace) {
+                              return const SizedBox.shrink();
+                            },
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          data.title,
+                          style: const TextStyle(
+                            fontSize: 25,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          maxLines: 2,
+                          textAlign: TextAlign.start,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          const SizedBox(height: 16),
+                          Wrap(
+                            spacing: chipSpacing, // Adjust spacing
+                            children: data.genres.map((genre) {
+                              return Chip(
+                                label: Text(
+                                  genre,
+                                  style: const TextStyle(
+                                    fontSize: 10,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                                backgroundColor: Colors.black87,
+                              );
+                            }).toList(),
+                          ),
+                          Row(
+                            children: [
+                              const Text(
+                                'Release At:',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.black87,
+                                  fontWeight: FontWeight.bold,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                textAlign: TextAlign.start,
+                              ),
+                              const SizedBox(width: 8),
+                              Text(
+                                DateFormat('d MMMM y')
+                                    .format(DateTime.parse(data.releaseDate)),
+                                style: const TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.black87,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                textAlign: TextAlign.start,
+                              )
+                            ],
+                          ),
+                          const SizedBox(height: 8),
+                          Row(
+                            children: <Widget>[
+                              const Text(
+                                'Rates:',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.black87,
+                                  fontWeight: FontWeight.bold,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                textAlign: TextAlign.start,
+                              ),
+                              const SizedBox(width: 8),
+                              Text(
+                                '${data.voteAverage}',
+                                style: const TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.black87,
+                                  fontWeight: FontWeight.bold,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                textAlign: TextAlign.start,
+                              ),
+                              const Icon(
+                                Icons.star,
+                                color: Colors.black87,
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 8),
+                          const Text(
+                            'Overview',
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.black87,
+                              fontWeight: FontWeight.bold,
+                              overflow: TextOverflow.ellipsis,
                             ),
+                            maxLines: 2,
+                            textAlign: TextAlign.start,
                           ),
-                          backgroundColor: Colors.black87,
-                        );
-                      }).toList(),
-                    ),
-                    Row(
-                      children: [
-                        const Text(
-                          'Release At:',
-                          style: TextStyle(
-                            fontSize: 16,
-                            color: Colors.black87,
-                            fontWeight: FontWeight.bold,
-                            overflow: TextOverflow.ellipsis,
+                          const SizedBox(height: 8),
+                          Text(
+                            data.overview,
+                            style: const TextStyle(
+                              fontSize: 16,
+                              color: Colors.black87,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            maxLines: 100,
+                            textAlign: TextAlign.start,
                           ),
-                          textAlign: TextAlign.start,
-                        ),
-                        const SizedBox(width: 8),
-                        Text(
-                          DateFormat('d MMMM y')
-                              .format(DateTime.parse(data.releaseDate)),
-                          style: const TextStyle(
-                            fontSize: 16,
-                            color: Colors.black87,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                          textAlign: TextAlign.start,
-                        )
-                      ],
-                    ),
-                    const SizedBox(height: 8),
-                    Row(
-                      children: <Widget>[
-                        const Text(
-                          'Rates:',
-                          style: TextStyle(
-                            fontSize: 16,
-                            color: Colors.black87,
-                            fontWeight: FontWeight.bold,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                          textAlign: TextAlign.start,
-                        ),
-                        const SizedBox(width: 8),
-                        Text(
-                          '${data.voteAverage}',
-                          style: const TextStyle(
-                            fontSize: 16,
-                            color: Colors.black87,
-                            fontWeight: FontWeight.bold,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                          textAlign: TextAlign.start,
-                        ),
-                        const Icon(
-                          Icons.star,
-                          color: Colors.black87,
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 8),
-                    const Text(
-                      'Overview',
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.black87,
-                        fontWeight: FontWeight.bold,
-                        overflow: TextOverflow.ellipsis,
+                        ],
                       ),
-                      maxLines: 2,
-                      textAlign: TextAlign.start,
                     ),
-                    const SizedBox(height: 8),
-                    Text(
-                      data.overview,
-                      style: const TextStyle(
-                        fontSize: 16,
-                        color: Colors.black87,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                      maxLines: 100,
-                      textAlign: TextAlign.start,
-                    ),
-                  ],
-                ),
+                  ),
+                ],
               ),
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  vertical: 16,
-                  horizontal: 30,
-                ),
-                child: Row(
-                  children: [
-                    SizedBox(
-                      width: 100,
-                      height: 150,
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(8.0),
-                        child: Image.network(
-                          "$IMAGE_URL${data.posterPath}",
-                          fit: BoxFit.fitHeight,
-                          errorBuilder: (context, error, stackTrace) {
-                            return const SizedBox.shrink();
-                          },
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 8),
-                    Expanded(
-                      child: Text(
-                        data.title,
-                        style: const TextStyle(
-                          fontSize: 25,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                        maxLines: 2,
-                        textAlign: TextAlign.start,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
+            )
+          ],
         )
       ],
     );
